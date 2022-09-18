@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0827EEE37AF6C1B90F286FA /* Pods_StarWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80DD7894960BB18F00E0045 /* Pods_StarWars.framework */; };
 		F4CA607B28D5DECF00E074FB /* StarWarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA607A28D5DECF00E074FB /* StarWarsApp.swift */; };
-		F4CA607D28D5DECF00E074FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA607C28D5DECF00E074FB /* ContentView.swift */; };
 		F4CA607F28D5DED000E074FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CA607E28D5DED000E074FB /* Assets.xcassets */; };
 		F4CA608228D5DED000E074FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CA608128D5DED000E074FB /* Preview Assets.xcassets */; };
 		F4CA608C28D5DED000E074FB /* StarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA608B28D5DED000E074FB /* StarWarsTests.swift */; };
 		F4CA609628D5DED000E074FB /* StarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA609528D5DED000E074FB /* StarWarsUITests.swift */; };
 		F4CA609828D5DED000E074FB /* StarWarsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA609728D5DED000E074FB /* StarWarsUITestsLaunchTests.swift */; };
+		F4CA60A928D5F7BF00E074FB /* PlanetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA60A828D5F7BF00E074FB /* PlanetListViewController.swift */; };
+		F4CA60AB28D5F7CB00E074FB /* PlanetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA60AA28D5F7CB00E074FB /* PlanetListViewModel.swift */; };
+		F4CA60AD28D5F7F700E074FB /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA60AC28D5F7F700E074FB /* PlanetView.swift */; };
+		F4CA60AF28D5F81A00E074FB /* PlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA60AE28D5F81A00E074FB /* PlanetViewController.swift */; };
+		F4CA60B128D5F85E00E074FB /* PlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA60B028D5F85E00E074FB /* PlanetViewModel.swift */; };
+		F4CA60B328D6FD5A00E074FB /* MyNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA60B228D6FD5A00E074FB /* MyNextView.swift */; };
+		F4CA60B528D6FDB000E074FB /* PlanetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA60B428D6FDB000E074FB /* PlanetListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF458D9349997991F94B1DFD /* Pods-StarWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWars.debug.xcconfig"; path = "Target Support Files/Pods-StarWars/Pods-StarWars.debug.xcconfig"; sourceTree = "<group>"; };
+		D80DD7894960BB18F00E0045 /* Pods_StarWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02977EFB24764192B467D25 /* Pods-StarWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWars.release.xcconfig"; path = "Target Support Files/Pods-StarWars/Pods-StarWars.release.xcconfig"; sourceTree = "<group>"; };
 		F4CA607728D5DECF00E074FB /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CA607A28D5DECF00E074FB /* StarWarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsApp.swift; sourceTree = "<group>"; };
-		F4CA607C28D5DECF00E074FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4CA607E28D5DED000E074FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4CA608128D5DED000E074FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4CA608728D5DED000E074FB /* StarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +53,13 @@
 		F4CA609128D5DED000E074FB /* StarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CA609528D5DED000E074FB /* StarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITests.swift; sourceTree = "<group>"; };
 		F4CA609728D5DED000E074FB /* StarWarsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4CA60A828D5F7BF00E074FB /* PlanetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListViewController.swift; sourceTree = "<group>"; };
+		F4CA60AA28D5F7CB00E074FB /* PlanetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListViewModel.swift; sourceTree = "<group>"; };
+		F4CA60AC28D5F7F700E074FB /* PlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetView.swift; sourceTree = "<group>"; };
+		F4CA60AE28D5F81A00E074FB /* PlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewController.swift; sourceTree = "<group>"; };
+		F4CA60B028D5F85E00E074FB /* PlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewModel.swift; sourceTree = "<group>"; };
+		F4CA60B228D6FD5A00E074FB /* MyNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNextView.swift; sourceTree = "<group>"; };
+		F4CA60B428D6FDB000E074FB /* PlanetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0827EEE37AF6C1B90F286FA /* Pods_StarWars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		556A7E3897414114E2222F1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D80DD7894960BB18F00E0045 /* Pods_StarWars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5604F5BD037DFB0EEF4056E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF458D9349997991F94B1DFD /* Pods-StarWars.debug.xcconfig */,
+				E02977EFB24764192B467D25 /* Pods-StarWars.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F4CA606E28D5DECF00E074FB = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +112,8 @@
 				F4CA608A28D5DED000E074FB /* StarWarsTests */,
 				F4CA609428D5DED000E074FB /* StarWarsUITests */,
 				F4CA607828D5DECF00E074FB /* Products */,
+				5604F5BD037DFB0EEF4056E1 /* Pods */,
+				556A7E3897414114E2222F1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +130,12 @@
 		F4CA607928D5DECF00E074FB /* StarWars */ = {
 			isa = PBXGroup;
 			children = (
+				F4CA60A428D5F77F00E074FB /* PlanetList */,
+				F4CA60A528D5F79100E074FB /* PlanetDetails */,
 				F4CA607A28D5DECF00E074FB /* StarWarsApp.swift */,
-				F4CA607C28D5DECF00E074FB /* ContentView.swift */,
 				F4CA607E28D5DED000E074FB /* Assets.xcassets */,
 				F4CA608028D5DED000E074FB /* Preview Content */,
+				F4CA60B228D6FD5A00E074FB /* MyNextView.swift */,
 			);
 			path = StarWars;
 			sourceTree = "<group>";
@@ -127,6 +165,26 @@
 			path = StarWarsUITests;
 			sourceTree = "<group>";
 		};
+		F4CA60A428D5F77F00E074FB /* PlanetList */ = {
+			isa = PBXGroup;
+			children = (
+				F4CA60B428D6FDB000E074FB /* PlanetListView.swift */,
+				F4CA60A828D5F7BF00E074FB /* PlanetListViewController.swift */,
+				F4CA60AA28D5F7CB00E074FB /* PlanetListViewModel.swift */,
+			);
+			path = PlanetList;
+			sourceTree = "<group>";
+		};
+		F4CA60A528D5F79100E074FB /* PlanetDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F4CA60AC28D5F7F700E074FB /* PlanetView.swift */,
+				F4CA60AE28D5F81A00E074FB /* PlanetViewController.swift */,
+				F4CA60B028D5F85E00E074FB /* PlanetViewModel.swift */,
+			);
+			path = PlanetDetails;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4CA609B28D5DED000E074FB /* Build configuration list for PBXNativeTarget "StarWars" */;
 			buildPhases = (
+				4497133B679EB4228B000366 /* [CP] Check Pods Manifest.lock */,
 				F4CA607328D5DECF00E074FB /* Sources */,
 				F4CA607428D5DECF00E074FB /* Frameworks */,
 				F4CA607528D5DECF00E074FB /* Resources */,
@@ -252,13 +311,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4497133B679EB4228B000366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarWars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4CA607328D5DECF00E074FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4CA607D28D5DECF00E074FB /* ContentView.swift in Sources */,
+				F4CA60B128D5F85E00E074FB /* PlanetViewModel.swift in Sources */,
+				F4CA60A928D5F7BF00E074FB /* PlanetListViewController.swift in Sources */,
+				F4CA60AB28D5F7CB00E074FB /* PlanetListViewModel.swift in Sources */,
+				F4CA60AF28D5F81A00E074FB /* PlanetViewController.swift in Sources */,
+				F4CA60AD28D5F7F700E074FB /* PlanetView.swift in Sources */,
+				F4CA60B328D6FD5A00E074FB /* MyNextView.swift in Sources */,
 				F4CA607B28D5DECF00E074FB /* StarWarsApp.swift in Sources */,
+				F4CA60B528D6FDB000E074FB /* PlanetListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -411,6 +501,7 @@
 		};
 		F4CA609C28D5DED000E074FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF458D9349997991F94B1DFD /* Pods-StarWars.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -425,6 +516,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +532,7 @@
 		};
 		F4CA609D28D5DED000E074FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02977EFB24764192B467D25 /* Pods-StarWars.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +547,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
